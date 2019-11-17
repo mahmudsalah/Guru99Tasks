@@ -15,12 +15,12 @@ public class PageBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	protected static void ClickButton(WebElement Button)
+	public static void ClickButton(WebElement Button)
 	{
 		Button.click();
 	}
 	
-	protected static void SendText(WebElement Text , String Value )
+	public static void SendText(WebElement Text , String Value )
 	{
 		Text.sendKeys(Value);;
 	}

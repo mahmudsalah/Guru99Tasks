@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TESTAutomation.Kerdasy.TestCase10">
+      <class name="Guru99BankTests.LoginSectionPageScenariosTest">
         <methods>
-          <include name="testTestCase10"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="OpenBrowser"/>
+          <include name="TakeScreenShotTest"/>
+          <include name="CloseBrowser"/>
+          <include name="LoginWithInVaildUserNameAndInVaildPasswordTestCase"/>
+          <include name="LoginWithInVaildUserNameAndVaildPasswordTestCase"/>
+          <include name="LoginWithVaildUserNameAndInVaildPasswordTestCase"/>
         </methods>
-      </class> <!-- TESTAutomation.Kerdasy.TestCase10 -->
+      </class> <!-- Guru99BankTests.LoginSectionPageScenariosTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

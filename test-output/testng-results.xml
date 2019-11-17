@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1629" started-at="2019-11-14T09:11:31Z" finished-at="2019-11-14T09:11:33Z">
+  <suite name="Default suite" duration-ms="7713" started-at="2019-11-17T09:30:10Z" finished-at="2019-11-17T09:30:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1629" started-at="2019-11-14T09:11:31Z" finished-at="2019-11-14T09:11:33Z">
-      <class name="Guru99BankTests.LoginSectionTest">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:Guru99BankTests.LoginSectionTest@5ec0a365]" name="OpenBrowser" is-config="true" duration-ms="10036" started-at="2019-11-14T09:11:21Z" finished-at="2019-11-14T09:11:31Z">
+    <test name="Default test" duration-ms="7713" started-at="2019-11-17T09:30:10Z" finished-at="2019-11-17T09:30:18Z">
+      <class name="Guru99BankTests.LoginSectionPageScenariosTest">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="OpenBrowser" is-config="true" duration-ms="7422" started-at="2019-11-17T09:30:03Z" finished-at="2019-11-17T09:30:10Z">
           <params>
             <param index="0">
               <value>
@@ -18,26 +18,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="VerifyLoginSectionTestCase()[pri:0, instance:Guru99BankTests.LoginSectionTest@5ec0a365]" name="VerifyLoginSectionTestCase" duration-ms="1609" started-at="2019-11-14T09:11:31Z" finished-at="2019-11-14T09:11:33Z">
+        <test-method status="PASS" signature="LoginWithVaildUserNameAndVaildPasswordTestCase()[pri:1, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="LoginWithVaildUserNameAndVaildPasswordTestCase" duration-ms="2866" started-at="2019-11-17T09:30:10Z" finished-at="2019-11-17T09:30:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyLoginSectionTestCase -->
-        <test-method status="PASS" signature="TakeScreenShotTest(org.testng.ITestResult)[pri:0, instance:Guru99BankTests.LoginSectionTest@5ec0a365]" name="TakeScreenShotTest" is-config="true" duration-ms="0" started-at="2019-11-14T09:11:33Z" finished-at="2019-11-14T09:11:33Z">
+        </test-method> <!-- LoginWithVaildUserNameAndVaildPasswordTestCase -->
+        <test-method status="PASS" signature="TakeScreenShotTest(org.testng.ITestResult)[pri:0, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="TakeScreenShotTest" is-config="true" duration-ms="2" started-at="2019-11-17T09:30:13Z" finished-at="2019-11-17T09:30:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLoginSectionTestCase status=SUCCESS method=LoginSectionTest.VerifyLoginSectionTestCase()[pri:0, instance:Guru99BankTests.LoginSectionTest@5ec0a365] output={null}]]]>
+                <![CDATA[[TestResult name=LoginWithVaildUserNameAndVaildPasswordTestCase status=SUCCESS method=LoginSectionPageScenariosTest.LoginWithVaildUserNameAndVaildPasswordTestCase()[pri:1, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TakeScreenShotTest -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Guru99BankTests.LoginSectionTest@5ec0a365]" name="CloseBrowser" is-config="true" duration-ms="996" started-at="2019-11-14T09:11:33Z" finished-at="2019-11-14T09:11:34Z">
+        <test-method status="PASS" signature="LoginWithVaildUserNameAndInVaildPasswordTestCase()[pri:2, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="LoginWithVaildUserNameAndInVaildPasswordTestCase" duration-ms="1703" started-at="2019-11-17T09:30:13Z" finished-at="2019-11-17T09:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithVaildUserNameAndInVaildPasswordTestCase -->
+        <test-method status="PASS" signature="TakeScreenShotTest(org.testng.ITestResult)[pri:0, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="TakeScreenShotTest" is-config="true" duration-ms="0" started-at="2019-11-17T09:30:15Z" finished-at="2019-11-17T09:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithVaildUserNameAndInVaildPasswordTestCase status=SUCCESS method=LoginSectionPageScenariosTest.LoginWithVaildUserNameAndInVaildPasswordTestCase()[pri:2, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShotTest -->
+        <test-method status="PASS" signature="LoginWithInVaildUserNameAndVaildPasswordTestCase()[pri:3, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="LoginWithInVaildUserNameAndVaildPasswordTestCase" duration-ms="1485" started-at="2019-11-17T09:30:15Z" finished-at="2019-11-17T09:30:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInVaildUserNameAndVaildPasswordTestCase -->
+        <test-method status="PASS" signature="TakeScreenShotTest(org.testng.ITestResult)[pri:0, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="TakeScreenShotTest" is-config="true" duration-ms="0" started-at="2019-11-17T09:30:16Z" finished-at="2019-11-17T09:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithInVaildUserNameAndVaildPasswordTestCase status=SUCCESS method=LoginSectionPageScenariosTest.LoginWithInVaildUserNameAndVaildPasswordTestCase()[pri:3, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShotTest -->
+        <test-method status="PASS" signature="LoginWithInVaildUserNameAndInVaildPasswordTestCase()[pri:4, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="LoginWithInVaildUserNameAndInVaildPasswordTestCase" duration-ms="1601" started-at="2019-11-17T09:30:16Z" finished-at="2019-11-17T09:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInVaildUserNameAndInVaildPasswordTestCase -->
+        <test-method status="PASS" signature="TakeScreenShotTest(org.testng.ITestResult)[pri:0, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="TakeScreenShotTest" is-config="true" duration-ms="0" started-at="2019-11-17T09:30:18Z" finished-at="2019-11-17T09:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithInVaildUserNameAndInVaildPasswordTestCase status=SUCCESS method=LoginSectionPageScenariosTest.LoginWithInVaildUserNameAndInVaildPasswordTestCase()[pri:4, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeScreenShotTest -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:Guru99BankTests.LoginSectionPageScenariosTest@5a4c638d]" name="CloseBrowser" is-config="true" duration-ms="629" started-at="2019-11-17T09:30:18Z" finished-at="2019-11-17T09:30:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- Guru99BankTests.LoginSectionTest -->
+      </class> <!-- Guru99BankTests.LoginSectionPageScenariosTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
