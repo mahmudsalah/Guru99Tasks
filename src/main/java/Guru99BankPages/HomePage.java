@@ -22,10 +22,13 @@ public class HomePage extends PageBase {
 	@FindBy(linkText = "Log out")
 	public WebElement LogoutButton;
 	
-	public void VerifyLoginSection()
+	@FindBy(css = "tr.heading3")
+	public WebElement UserNameIDText;
+	
+	public void VerifyLoginSection(String UserName , String PassWord)
 	{
-		SendText(UserNameID, "mngr232954");
-		SendText(UserPassword, "nAzuvej");
+		SendText(UserNameID, UserName);
+		SendText(UserPassword, PassWord);
 		ClickButton(LoginButton);
 	}
 

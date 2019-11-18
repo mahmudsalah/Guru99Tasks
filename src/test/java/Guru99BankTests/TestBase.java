@@ -12,16 +12,19 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class TestBase {
 	
 	public static WebDriver driver;
-
-	@BeforeSuite
-	@Parameters({"browser"})
+	
+	
+	@Parameters({"BrowserName"})
+	@BeforeTest
 	public void OpenBrowser(@Optional("chrome") String BrowserName) {
 		
 		if(BrowserName.equalsIgnoreCase("chrome"))
@@ -57,7 +60,7 @@ public class TestBase {
 		}
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void CloseBrowser() {
 		driver.quit();
 	}
